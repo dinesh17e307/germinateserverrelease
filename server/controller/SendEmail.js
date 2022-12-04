@@ -1,12 +1,12 @@
 
 const nodeMailer = require('nodemailer'), transporter = nodeMailer.createTransport({
-    host: 'smtp.gmail.com',
+ host: 'smtp.gmail.com',
   port: 465,
     secure: true,
   
     auth: {
         user: 'bestfrnd5888@gmail.com',
-        pass: 'bbztoafgyabmnkbt'
+        pass: 'bbuhtdhfjhhqlyhq'
     }
 
 }), EmailTemplate = require('email-templates').EmailTemplate,
