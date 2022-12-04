@@ -12,13 +12,7 @@ const nodeMailer = require('nodemailer'), transporter = nodeMailer.createTranspo
 }), EmailTemplate = require('email-templates').EmailTemplate,
     path = require('path'),
     Promise = require('bluebird');
-const users=[
-    {
-        name: ';dienbsh',
-        Quotevalue:49999,
-        email:'dheena5880@gmail.com'
-    }
-]
+
 function sendMail(obj) {
         return transporter.sendMail(obj)
 }
