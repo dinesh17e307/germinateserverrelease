@@ -6,7 +6,7 @@ const nodeMailer = require('nodemailer'), transporter = nodeMailer.createTranspo
   
     auth: {
         user: 'bestfrnd5888@gmail.com',
-        pass: 'bpemxqucbzbldbmm'
+        pass: 'bbztoafgyabmnkbt'
     }
 
 }), EmailTemplate = require('email-templates').EmailTemplate,
